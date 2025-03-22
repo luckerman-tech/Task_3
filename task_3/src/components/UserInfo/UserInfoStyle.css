@@ -1,0 +1,27 @@
+.button {
+    width: fit-content;
+}
+.element {
+    display: inline;
+}
+.element.one, .element.three {
+    font-weight: bold;
+}
+.content {
+    display: none;
+    margin-left: 2%;
+    cursor: default;
+}
+#heading {
+    margin-bottom: 5px;
+}
+.post {
+    font-size: smaller;
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+:hover.button {
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
